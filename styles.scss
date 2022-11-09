@@ -1,0 +1,73 @@
+body {
+    @media only screen and (max-width: 600px) {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+h2 {
+    @media only screen and (max-width: 600px) {
+        font-size: 30px;   
+    }
+}
+
+.sedan {
+    @media only screen and (max-width: 600px) {
+        background-color: #E28638;
+        border-radius: 10px 10px 0px 0px;
+        p {
+            line-height: 1.5;
+            color: #F9D19E;
+        }
+    }
+}
+.suv {
+    @media only screen and (max-width: 600px) {
+        background-color: #296972;
+        p {
+            line-height: 1.5;
+            color: #82CCD5;
+        }
+    }
+}
+.luxury {
+    @media only screen and (max-width: 600px) {
+        background-color: #17403F;
+        border-radius: 0px 0px 10px 10px;
+        p {
+            line-height: 1.5;
+            color: #76A8A7;
+        }
+    }
+}
+
+.card-img {
+    @media only screen and (max-width: 600px) {
+        width: 60px;
+    }
+}
+
+.cards {
+    @media only screen and (max-width: 600px) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        margin: 40px;
+    }
+
+}
+
+.card {
+    @media only screen and (max-width: 600px) {
+        display: flex;
+        color: #fff;
+        padding: 40px;
+        gap: 20px;
+        flex-direction: column;
+    }
+}
+
