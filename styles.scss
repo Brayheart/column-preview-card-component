@@ -7,84 +7,68 @@ body {
 }
 
 h2 {
-    @media only screen and (max-width: 600px) {
-        font-size: 30px;   
-    }
+    font-size: 30px;   
 }
 
 button {
-    @media only screen and (max-width: 600px) {
-        width: 125px;
-        border-radius: 30px;
-        border: none;
-        padding: 15px;
-        font-size: 15px;
-    }
+    width: 125px;
+    border-radius: 30px;
+    border: none;
+    padding: 15px;
+    font-size: 15px;
 }
 
 .sedan {
-    @media only screen and (max-width: 600px) {
-        background-color: #E28638;
-        border-radius: 10px 10px 0px 0px;
-        p {
-            line-height: 1.5;
-            color: #F9D19E;
-        }
-        button {
-            color: #E28638;
-        }
+    background-color: #E28638;
+    border-radius: 10px 10px 0px 0px;
+    p {
+        line-height: 1.5;
+        color: #F9D19E;
+    }
+    button {
+        color: #E28638;
     }
 }
 .suv {
-    @media only screen and (max-width: 600px) {
-        background-color: #296972;
-        p {
-            line-height: 1.5;
-            color: #82CCD5;
-        }
-        button {
-            color: #296972;
-        }
+    background-color: #296972;
+    p {
+        line-height: 1.5;
+        color: #82CCD5;
+    }
+    button {
+        color: #296972;
     }
 }
 .luxury {
-    @media only screen and (max-width: 600px) {
-        background-color: #17403F;
-        border-radius: 0px 0px 10px 10px;
-        p {
-            line-height: 1.5;
-            color: #76A8A7;
-        }
-        button {
-            color:#17403F
-        }
+    background-color: #17403F;
+    border-radius: 0px 0px 10px 10px;
+    p {
+        line-height: 1.5;
+        color: #76A8A7;
+    }
+    button {
+        color:#17403F
     }
 }
 
 .card-img {
-    @media only screen and (max-width: 600px) {
-        width: 60px;
-    }
+    width: 60px;
 }
 
 .cards {
-    @media only screen and (max-width: 600px) {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        align-content: center;
-        margin: 40px;
-    }
-
+    max-width: 340px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    margin: 40px;
 }
 
 .card {
-    @media only screen and (max-width: 600px) {
-        display: flex;
-        color: #fff;
-        padding: 40px;
-        gap: 20px;
-        flex-direction: column;
-    }
+    display: flex;
+    color: #fff;
+    padding: 40px;
+    gap: 20px;
+    flex-direction: column;
 }
 
